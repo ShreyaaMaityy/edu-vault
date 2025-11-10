@@ -124,6 +124,12 @@ function Navbar() {
                 </li>
               </ul>
             </li>
+            {/* Portfolio Link */}
+            <li className="nav-item">
+              <Link className="nav-link" to="/portfolio">
+                Portfolio Builder
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

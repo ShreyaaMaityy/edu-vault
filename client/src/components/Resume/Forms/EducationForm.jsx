@@ -1,6 +1,6 @@
 import { useState, useContext } from "react";
 import { useNavigate } from "react-router";
-import { ResumeContext } from "../../../context/resumeContext";
+import { ResumeContext } from "../../../context/resumeContext.jsx";
 
 function EducationForm() {
   const { educationData, setEducationData } = useContext(ResumeContext);
